@@ -1,6 +1,3 @@
-/**
- * Created by thomasb on 4/5/16.
- */
 function App(){
     var self = this;
 
@@ -21,6 +18,9 @@ function App(){
 
     //singletons
 //    self.loader = new Modal("#loading-modal");
+
+    //this var is used to define which page is shown
+    self.currentPage = ko.observable("initializing");
 
     //this function is called to initiate the model
     self.init = function(){

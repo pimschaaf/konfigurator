@@ -7,5 +7,5 @@ $(document).ready(function(){
 
     //Notice: we use to apply bindings to div-element, in this case we've added an ID
     //to the body. Because we want to load/unload styles in HTML-head...
-    ko.applyBindings(APPLICATION, document.getElementById("topolis-game"));
+    ko.applyBindings(APPLICATION, document.getElementById("konfigurator"));
 });
