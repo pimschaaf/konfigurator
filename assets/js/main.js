@@ -1,6 +1,6 @@
 var APPLICATION = null;
 
-$(document).ready(function(){
+jQuery( document ).ready(function( $ ) {
     //initiate application
     APPLICATION = new App();
     APPLICATION.init();

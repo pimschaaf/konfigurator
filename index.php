@@ -3,12 +3,14 @@
 <head>
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/vendor/knockout-3.4.0.js"></script>
-    <script type="text/javascript" src="assets/js/app/models/View.js"></script>
+    <script type="text/javascript" src="assets/js/app/views/pages/initializing.js"></script>
+    <script type="text/javascript" src="assets/js/app/views/pages/editor.js"></script>
     <script type="text/javascript" src="assets/js/app/app.js"></script>
+    <script type="text/javascript" src="assets/js/config.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
 </head>
 <body>
-    <div id="page-wrapper" data-bind="template: currentPage"></div>
+    <div id="konfigurator-wrapper" data-bind="template: currentPage"></div>
 
     <!-- region: Load templates-->
     <?php
