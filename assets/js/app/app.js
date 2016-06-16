@@ -107,13 +107,11 @@ function App(){
             if(APPLICATION.pageModels[self.currentPage()].windowLocation()){
                 pageUrl += APPLICATION.pageModels[self.currentPage()].windowLocation();
             }else{
-                pageUrl += "/" + self.currentPage();
+                pageUrl += self.currentPage();
             }
         }catch(error){
-            pageUrl += "/" + self.currentPage();
+            pageUrl += self.currentPage();
         }
-
-        console.log(pageUrl);
 
         return pageUrl;
     }, self);
@@ -141,7 +139,7 @@ function App(){
     //this function is called to analyze existing URL
     self.analyzeUrl = function(){
         //default page
-        var pageToOpen = "editor";
+        var pageToOpen = CONFIG.HOME_PAGE;
 
         //split url in keys
         try{

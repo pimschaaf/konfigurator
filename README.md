@@ -1,2 +1,2 @@
 #Konfigurator
-Konfigurator is the SPA code design pattern based on Knockout (and jQuery) used by Thomas at DPI.
+Konfigurator is a single page product configurator based on the SPA code design pattern with Knockout (and jQuery) used by Thomas at DPI.
